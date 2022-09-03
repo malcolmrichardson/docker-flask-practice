@@ -7,8 +7,8 @@ COPY ./requirements.txt /app/requirements.txt
 # Switching working cwd.
 WORKDIR /app
 
-# Installing application dependencies/packages from the requriements.txt file.
-RUN pip install -r requriements.txt
+# Installing application dependencies/packages from the requirements.txt file.
+RUN pip install -r requirements.txt
 
 # Copying all content from the local file to the Docker image.
 COPY . /app
