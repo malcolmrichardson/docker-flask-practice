@@ -1,4 +1,4 @@
-# Pulling python Docker image.
+# Pulling python Docker image, running on Alpline Linux distro.
 FROM python:3.8-alpine
 
 # Copying the requirements.txt file into Docker image.
@@ -13,7 +13,7 @@ RUN pip install -r requriements.txt
 # Copying all content from the local file to the Docker image.
 COPY . /app
 
-# Command to run application.
+# Command to run application within container.
 ENTRYPOINT [ "python" ]
 
 # File that will be run w/ "python" command.
