@@ -16,5 +16,8 @@ COPY . /app
 # Command to run application within container.
 ENTRYPOINT [ "python" ]
 
+# Exposing port 3000.
+EXPOSE 3000
+
 # File that will be run w/ "python" command.
 CMD [ "app.py" ]
