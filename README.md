@@ -1,5 +1,5 @@
 # docker-flask-practice
-Web application to practice/demonstrate Containerization w/ Docker & Flask.
+Web application to practice/demonstrate containerization w/ Docker & Flask.
 ## Language(s):
 - Python
 - GO
